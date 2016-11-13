@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441172D81DD8C41E00E41E87 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Source/module.modulemap; sourceTree = SOURCE_ROOT; };
 		740AC3EA1999799900AB9A86 /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		740AC3F51999799900AB9A86 /* ToucanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToucanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BE12971C3A025700C9521C /* ToucanTVOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToucanTVOS.h; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 				74FBD0DD1A66512A009B7BC5 /* Toucan.h */,
 				74FBD0DE1A66512A009B7BC5 /* Toucan.swift */,
 				74BE129B1C3A029700C9521C /* Toucan-Info.plist */,
+				441172D81DD8C41E00E41E87 /* module.modulemap */,
 			);
 			name = Source;
 			path = Toucan;
@@ -437,6 +439,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Toucan-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = co.thesimplelab.Toucan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -457,6 +460,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Toucan-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = co.thesimplelab.Toucan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
