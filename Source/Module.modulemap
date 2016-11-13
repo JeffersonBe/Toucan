@@ -1,0 +1,7 @@
+framework module Toucan {
+    header "Toucan.h"
+    header "ToucanTVOS.h"
+    
+    export *
+    module * { export * }
+}
